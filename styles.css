@@ -29,10 +29,7 @@ header h1 {
     margin: 0px;
 }
 
-
-
 .headerTitle {
-    
     overflow: hidden;
     position: relative;
 }
@@ -73,7 +70,7 @@ header h1 {
     padding: 0px 0px;
     margin: 0px 0px 2px 0px;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
     display: flex;
     justify-content: right;
     justify-items: center;
@@ -108,7 +105,7 @@ header h1 {
 }
 
 .intro {
-    background-color: blueviolet;
+    
 }
 
 .skills {
@@ -131,6 +128,12 @@ header h1 {
     background-color: deepskyblue;
 }
 
+
+@media (width <= 850px) {
+    #contactInfo {
+        font-size: 12px;
+    }
+}
 
 @media (width <= 700px) {
     .contactCard p {
