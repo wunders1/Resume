@@ -6,6 +6,22 @@ body {
     /* background-color: slategray; */
 }
 
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    margin-bottom: 0px;
+}
+
 .resume {
     background-color: white;
     padding: 0px 10px;
@@ -13,7 +29,16 @@ body {
 }
 
 section {
-    padding: 0px 10px;
+    padding: 5px 10px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    width: 90%;
+    margin: 5px auto;
+    background-color:  rgb(56, 56, 56);
+
 }
 
 header {
@@ -24,7 +49,7 @@ header {
 }
 
 header h1 {
-    font-size: 2em;
+    
     padding: 5px 0px;
     margin: 0px;
 }
@@ -126,6 +151,45 @@ header h1 {
 }
 */
 
+table {
+    width: 85%;
+}
+
+td,
+th {
+    text-align: start;
+}
+
+.roll {
+    padding: 8px 0px;
+}
+
+
+.roll ul {
+    margin: 5px 0px;
+}
+
+.position {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-name {
+    font-size: 1.35em;
+    font-weight: 900;
+}
+
+.position-title {
+    font-weight: 800;
+    margin: 0px;
+}
+
+.company-date,
+.position-date {
+    font-weight: 800;
+}
+
+
 @media (width <= 850px) {
     #contactInfo {
         font-size: 12px;
@@ -165,5 +229,20 @@ header h1 {
         display: block;
     }
 
+    td,
+    th {
+        padding: 3px;
+    }
+
+    .position {
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .company-date,
+    .position-date {
+        font-weight: 400;
+        margin-top: 5px;
+    }
 
 }
